@@ -38,7 +38,7 @@ public class ArticuloAlCarritoRunnerStepDefinitions {
     }
 
     @Entonces("visualizo el carro de compras con el producto adicionado")
-    public void visualizarCarrito() {
+    public void visualizarCarrito() throws IOException {
         validar.validarTituloPagina();
     }
 
