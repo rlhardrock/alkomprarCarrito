@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 
 public class ArticuloDetallePage extends PageObject {
 
-    By btnAgregar = By.xpath("//*[@id=\"addToCartButton\"]");
+    By btnAgregar = By.xpath("//button[@id='addToCartButton']");
 
     public By getBtnAgregar() {
         return btnAgregar;

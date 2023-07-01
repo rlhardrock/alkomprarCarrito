@@ -22,6 +22,8 @@ public class HomePage extends PageObject {
     public By getTxtBusqueda() {
         return txtBusqueda;
     }
+
+
 }
 
 

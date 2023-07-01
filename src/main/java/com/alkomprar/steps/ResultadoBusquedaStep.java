@@ -24,4 +24,10 @@ public class ResultadoBusquedaStep {
         articulo.click();
     }
 
+    @Step
+    public void clicCarrito(){
+        listaProductos.getDriver().findElement(listaProductos.getBtnCarrito()).click();
+
+    }
+
 }
