@@ -1,5 +1,6 @@
 package com.alkomprar.stepDefinitions;
 
+import com.alkomprar.steps.ArticuloDetalleStep;
 import com.alkomprar.steps.HomeStep;
 import com.alkomprar.steps.ResultadoBusquedaStep;
 import io.cucumber.java.es.*;
@@ -15,6 +16,9 @@ public class ArticuloAlCarritoRunnerStepDefinitions {
     @Steps
     ResultadoBusquedaStep busqueda;
 
+    @Steps
+    ArticuloDetalleStep adicion;
+
     @Dado("abro la pagina web Alkomprar")
     public void abrirWebAlkomprar() {
         comenzar.abrirNavegador();
@@ -25,7 +29,7 @@ public class ArticuloAlCarritoRunnerStepDefinitions {
         comenzar.enviarBusqueda();
         comenzar.clicBusqueda();
         busqueda.seleccionarProducto();
-
+        adicion.agregarCarrito();
     }
 
     @Entonces("visualizo el carro de compras con el producto adicionado")
