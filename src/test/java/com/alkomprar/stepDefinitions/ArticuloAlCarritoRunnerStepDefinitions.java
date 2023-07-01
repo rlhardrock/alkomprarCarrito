@@ -30,7 +30,7 @@ public class ArticuloAlCarritoRunnerStepDefinitions {
         comenzar.clicBusqueda();
         busqueda.seleccionarProducto();
         adicion.agregarCarrito();
-        //busqueda.clicCarrito();
+        busqueda.clicCarrito();
     }
 
     @Entonces("visualizo el carro de compras con el producto adicionado")
