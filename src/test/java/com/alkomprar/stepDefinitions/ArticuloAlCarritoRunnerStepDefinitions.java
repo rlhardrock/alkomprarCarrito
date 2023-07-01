@@ -4,6 +4,8 @@ import com.alkomprar.steps.HomeStep;
 import io.cucumber.java.es.*;
 import net.thucydides.core.annotations.Steps;
 
+import java.io.IOException;
+
 public class ArticuloAlCarritoRunnerStepDefinitions {
 
     @Steps
@@ -11,12 +13,12 @@ public class ArticuloAlCarritoRunnerStepDefinitions {
 
     @Dado("abro la pagina web Alkomprar")
     public void abrirWebAlkomprar() {
-        //comenzar.abrirNavegador();
+        comenzar.abrirNavegador();
     }
 
     @Cuando("busco el producto lo selecciono y envio al carrito de compras")
-    public void visualizarProcesoCompra() {
-        //comenzar.enviarBusqueda();
+    public void visualizarProcesoCompra() throws IOException {
+        comenzar.enviarBusqueda();
         //comenzar.clicBusqueda();
 
     }

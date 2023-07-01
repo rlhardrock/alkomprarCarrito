@@ -7,7 +7,8 @@ import org.openqa.selenium.WebElement;
 
 public class HomePage extends PageObject {
 
-    By txtBusqueda = By.xpath("//input[@id='js-site-search-input']");
+    //By txtBusqueda = By.id("//input[@id='js-site-search-input']");
+    By txtBusqueda = By.id("js-site-search-input");
     //By btnBusqueda = By.xpath("//button[@id='js-search-button']");
     By btnBusqueda = By.id("js-search-button");
 
