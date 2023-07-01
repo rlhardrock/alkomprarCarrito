@@ -19,7 +19,7 @@ public class ArticuloAlCarritoRunnerStepDefinitions {
     @Cuando("busco el producto lo selecciono y envio al carrito de compras")
     public void visualizarProcesoCompra() throws IOException {
         comenzar.enviarBusqueda();
-        //comenzar.clicBusqueda();
+        comenzar.clicBusqueda();
 
     }
 
