@@ -16,4 +16,9 @@ public class HomeStep {
     public void enviarBusqueda(){
         home.getDriver().findElement(home.getTxtBusqueda()).sendKeys("llanta");
     }
+
+    @Step
+    public void clicBusqueda(){
+        home.hacerClicEnBotonBusqueda();
+    }
 }

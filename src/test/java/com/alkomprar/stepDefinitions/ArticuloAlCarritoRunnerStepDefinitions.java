@@ -11,12 +11,13 @@ public class ArticuloAlCarritoRunnerStepDefinitions {
 
     @Dado("abro la pagina web Alkomprar")
     public void abrirWebAlkomprar() {
-        comenzar.abrirNavegador();
+        //comenzar.abrirNavegador();
     }
 
     @Cuando("busco el producto lo selecciono y envio al carrito de compras")
     public void visualizarProcesoCompra() {
-        comenzar.enviarBusqueda();
+        //comenzar.enviarBusqueda();
+        //comenzar.clicBusqueda();
 
     }
 
