@@ -13,7 +13,7 @@ public class HomeStep {
     HomePage home = new HomePage();
     Excel excel = new Excel();
 
-    @Step()
+    @Step
     public void abrirNavegador(){
         home.openUrl("https://www.alkomprar.com/");
     }
